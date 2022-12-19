@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+font-family: 'Lexend', sans-serif;
+}
+.titulo-principal{
+    font-size: 80px;
+    color: red;
+    font-weight: 400;
+}
+
+.titulo-principal:hover{
+    color: black;
+    transition: .5s;
+}
+
+input[type=button]{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    color: blue;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    
+}
+
+header{
+    background-color: blueviolet;
+    padding-top: 0;
+    margin: 0;
+
+}
+
+.menu{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    font-weight: bold;
+}
+
+@media screen (min-width: 400px){
+    
+}
